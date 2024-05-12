@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Viewer</title>
+    <script>
+    // JavaScript函数，用于处理按钮点击事件
+    function showImage() {
+        // 根据你想要展示的图片，修改这里的 'desired-image.jpg' 为你的图片文件名
+        var imageUrl = 'http://img-blog.csdnimg.cn/c37c7bd09f554462ab7b44a607464643.png';
+        // 使用JavaScript重定向到图片URL
+        window.location.href = imageUrl;
+    }
+    </script>
+</head>
+<body>
+
+    <!-- 创建一个按钮，其onclick事件关联到上面定义的showImage函数 -->
+    <button onclick="showImage()">View Image</button>
+
+</body>
+</html>
